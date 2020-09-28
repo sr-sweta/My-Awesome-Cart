@@ -57,7 +57,7 @@ ROOT_URLCONF = 'MyAwesomeCart.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['MyAwesomeCart/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,5 +124,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+#managing media
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+MEDIA_URL='/media/'
 
 

@@ -7,7 +7,8 @@ urlpatterns = [
     path('tracker/',views.tracker,name='TrackingStatus'),
     path('contact/',views.contact,name='ContactUs'),
     path('search/',views.search,name='Search'),
-    path('productview/',views.productView,name='ProductView'),
+    path('products/<int:myid>',views.productView,name='ProductView'),#<int:myid> is used for unique identification of a prod
     path('checkout/',views.checkout,name='Checkout'),
+    path("handlerequest/", views.handlerequest, name="HandleRequest"),
 
 ]
