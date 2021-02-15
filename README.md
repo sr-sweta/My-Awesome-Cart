@@ -1,9 +1,9 @@
 # Shopping-Site
 Django Utube Code with Harry Tutorial
 
-##Steps to start
+Steps to start
 
-###pip install pycrytodome
-###pip install pillow
+pip install pycrytodome
+pip install pillow
 
 And there we go!!!!!!!
