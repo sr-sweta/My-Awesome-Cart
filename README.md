@@ -1,5 +1,5 @@
 # Shopping-Site
-Django Utube Code with Harry Tutorial
+Django Project
 
 Steps to start(PACKAGES)
 
