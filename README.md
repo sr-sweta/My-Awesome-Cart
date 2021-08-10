@@ -44,9 +44,7 @@ OR
 ```
 conda install --file requirements.txt
 ```
-**6.**
-
-Add your Paytm Merchant id to the MERCHANT_KEY in file MyAwesomeCart\shop\views.py.
+**6.** Add your Paytm Merchant id to the MERCHANT_KEY in file MyAwesomeCart\shop\views.py.
 
 ![Screenshot (814)](https://user-images.githubusercontent.com/70569920/128919939-d9290c5d-2eb4-4e5e-a92c-2c3a30d6e876.png)
 
