@@ -44,8 +44,14 @@ OR
 ```
 conda install --file requirements.txt
 ```
+**6.**
 
-**6.** Make migrations with:
+Add your Paytm Merchant id to the MERCHANT_KEY in file MyAwesomeCart\shop\views.py.
+
+![Screenshot (814)](https://user-images.githubusercontent.com/70569920/128919939-d9290c5d-2eb4-4e5e-a92c-2c3a30d6e876.png)
+
+
+**7.** Make migrations with:
 
 ```
 python manage.py makemigrations
@@ -58,7 +64,7 @@ python manage.py migrate
 ```
 
 
-**7.** Run app localy with: 
+**8.** Run app localy with: 
 
 ```
 python manage.py runserver
