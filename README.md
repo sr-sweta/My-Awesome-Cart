@@ -3,19 +3,19 @@ E- commerce site built using django.
 
 # Setup
 
-1. Git Clone the project with:
+**1.** Git Clone the project with:
 
 ```bash
 git clone https://github.com/sr-sweta/My-Awesome-Cart.git
 ```
 
-2. Move to the base directory: 
+**2.** Move to the base directory: 
 
 ```
 cd MYAWESOMECART
 ```
 
-3. Create a new python enveronment with:
+**3.** Create a new python enveronment with:
 
 ```
 python -m venv env
@@ -27,13 +27,13 @@ OR
 conda create --name venv python
 ```
 
-4. Activate enveronment with:
+**4.** Activate enveronment with:
 
 ```
 activate venv
 ```
 
-5. Install required dependences with:
+**5.** Install required dependences with:
 
 ```
 pip install -r requirements.txt
@@ -45,7 +45,7 @@ OR
 conda install --file requirements.txt
 ```
 
-6. Make migrations with:
+**6.** Make migrations with:
 
 ```
 python manage.py makemigrations
@@ -58,7 +58,7 @@ python manage.py migrate
 ```
 
 
-7. Run app localy with: 
+**7.** Run app localy with: 
 
 ```
 python manage.py runserver
