@@ -9,13 +9,7 @@ E- commerce site built using django.
 git clone https://github.com/sr-sweta/My-Awesome-Cart.git
 ```
 
-**2.** Move to the base directory: 
-
-```
-cd MYAWESOMECART
-```
-
-**3.** Create a new python enveronment with:
+**2.** Create a new python enveronment with:
 
 ```
 python -m venv env
@@ -27,13 +21,13 @@ OR
 conda create --name venv python
 ```
 
-**4.** Activate enveronment with:
+**3.** Activate enveronment with:
 
 ```
 activate venv
 ```
 
-**5.** Install required dependences with:
+**4.** Install required dependences with:
 
 ```
 pip install -r requirements.txt
@@ -44,6 +38,13 @@ OR
 ```
 conda install --file requirements.txt
 ```
+
+**5.** Move to the base directory: 
+
+```
+cd MYAWESOMECART
+```
+
 **6.** Add your Paytm Merchant id to the MERCHANT_KEY in file MyAwesomeCart\shop\views.py.
 
 ![Screenshot (814)](https://user-images.githubusercontent.com/70569920/128919939-d9290c5d-2eb4-4e5e-a92c-2c3a30d6e876.png)
